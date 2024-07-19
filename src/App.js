@@ -21,7 +21,7 @@ const App = () => {
         style: {
           window: {
             aspectRatio: 2,
-            paddingPropLeft: 0.7,
+            paddingPropLeft: 0.1,
           },
         },
         barcodeFormat: [
@@ -83,12 +83,9 @@ const App = () => {
   }
 
   return (
-    <div>
-      <div
-        id='barcode-scanner-view'
-        style={{ height: "70%", width:"70%"}}>
-      </div>
-      <div>{barcodeText}</div>
+    <div className="App">
+      <div id='barcode-scanner-view'></div>
+      <div className="barcode-text">{barcodeText}</div>
     </div>
   );
 }
