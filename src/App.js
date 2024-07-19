@@ -86,7 +86,7 @@ const App = () => {
     <div>
       <div
         id='barcode-scanner-view'
-        style={{ height: "70%", width: "70%" }}>
+        style={{ height: "70%", width:"70%"}}>
       </div>
       <div>{barcodeText}</div>
     </div>
